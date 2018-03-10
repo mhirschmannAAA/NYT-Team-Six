@@ -6,6 +6,8 @@ $(document).ready(function() {
     var numArt = 0;
 
 
+    TEST ---- 
+
     var url = "https://api.nytimes.com/svc/archive/v1/" + year + "/12.json";
     url += '?' + $.param({
       'api-key': "16b2450d5a3444418fd80c13c69915f2"
